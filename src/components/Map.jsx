@@ -13,7 +13,7 @@ const center = {
 
 export default function Map() {
    // eslint-disable-next-line no-undef
-   const apiKey= process.env.REACT_APP_Google_Maps_API_key
+   const apiKey= import.meta.env.VITE_REACT_APP_GOOGLE_MAPS_API_KEY;
   return (
     <LoadScript
     googleMapsApiKey={apiKey}

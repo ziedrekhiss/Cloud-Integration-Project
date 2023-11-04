@@ -4,8 +4,8 @@ import Navbar from './components/Navbar'
 import Partners from './components/Partners'
 import About from './components/About'
 import Projects from './components/Projects'
-import dotenv from 'dotenv'
-dotenv.config()
+// import dotenv from 'dotenv'
+// dotenv.config()
 function App() {
   
   return (
